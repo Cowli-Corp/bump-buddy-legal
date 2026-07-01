@@ -14,48 +14,97 @@
       line-height: 1.7;
     }
     h1 { font-size: 1.8rem; margin-bottom: 4px; }
-    h2 { font-size: 1.1rem; margin-top: 32px; }
+    h2 { font-size: 1.1rem; margin-top: 36px; color: #1a1a1a; }
     p, li { font-size: 0.97rem; color: #444; }
+    ul { padding-left: 1.4rem; }
+    li { margin-bottom: 4px; }
     .meta { color: #888; font-size: 0.9rem; margin-bottom: 40px; }
+    .highlight {
+      background: #f0f5f1;
+      border-left: 3px solid #7c9a82;
+      padding: 12px 16px;
+      border-radius: 4px;
+      margin: 16px 0;
+    }
+    a { color: #4a7c59; }
   </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
   <p class="meta">Bump Buddy &mdash; Last updated: July 1, 2026</p>
 
-  <h2>Overview</h2>
-  <p>Bump Buddy is a free, private, offline pregnancy companion app. We do not collect, transmit, or store any personal information on our servers &mdash; because we have no servers. Everything stays on your device.</p>
+  <div class="highlight">
+    <strong>The short version:</strong> Bump Buddy stores all your data on your device only. We have no servers, collect nothing, and cannot access your information under any circumstances &mdash; including legal requests.
+  </div>
 
-  <h2>Data we collect</h2>
-  <p>We collect nothing. Bump Buddy does not use analytics, advertising SDKs, crash reporting tools, or any third-party service that accesses your data.</p>
+  <h2>1. Overview</h2>
+  <p>Bump Buddy is a free, private, offline pregnancy companion app built by Cowli Corp. We do not collect, transmit, or store any personal information on our servers — because we have no servers. Everything stays on your device.</p>
 
-  <h2>Data stored on your device</h2>
-  <p>The app stores the following information locally on your device using your phone's built-in storage:</p>
+  <h2>2. Sensitive health data</h2>
+  <p>Pregnancy and reproductive health information is among the most sensitive personal data that exists. We take that seriously. Bump Buddy is designed from the ground up so that your health data — including pregnancy details, mood, journal entries, and loss support content — <strong>never leaves your device under any circumstances.</strong></p>
+  <p>We do not treat your health information as a business asset. We do not monetise it, analyse it, or share it.</p>
+
+  <h2>3. Data stored on your device</h2>
+  <p>The app stores the following information locally using your phone's built-in storage (AsyncStorage):</p>
   <ul>
     <li>Your due date or last menstrual period date</li>
     <li>Journal entries you write</li>
     <li>Mood check-ins</li>
-    <li>Checklist progress</li>
+    <li>Pregnancy checklist progress</li>
     <li>App preferences (perspective, notification settings)</li>
+    <li>Loss support journal entries, if used</li>
   </ul>
-  <p>This data never leaves your device. It is not backed up to our systems, shared with third parties, or accessible to us in any way.</p>
+  <p>This data is accessible only to you on your device. It is not synced to any cloud service, backed up to our systems, or accessible to us in any way.</p>
 
-  <h2>Notifications</h2>
-  <p>If you opt in to weekly reminders, these are scheduled locally on your device. No data is sent to any server to deliver them.</p>
+  <h2>4. Data we collect</h2>
+  <p>We collect nothing. Bump Buddy contains no analytics, no crash reporting, no advertising SDKs, and no third-party tracking of any kind. Specifically, the app does <strong>not</strong> include:</p>
+  <ul>
+    <li>Google Analytics or Firebase</li>
+    <li>Facebook SDK or any Meta services</li>
+    <li>Crashlytics, Sentry, or any crash reporting tool</li>
+    <li>Any advertising or marketing network</li>
+    <li>Apple HealthKit or Google Health Connect integration</li>
+  </ul>
 
-  <h2>Medical information</h2>
-  <p>The medical reference content in this app is for general educational purposes only. It was not written or reviewed by licensed medical professionals and is not a substitute for professional medical advice. Always consult your healthcare provider.</p>
+  <h2>5. Notifications</h2>
+  <p>If you opt in to weekly reminders, these are scheduled entirely on your device using your phone's local notification system. No data is sent to any server to deliver them. You can revoke notification permissions at any time in your phone's settings.</p>
 
-  <h2>Children</h2>
-  <p>This app is intended for adults. We do not knowingly collect data from anyone, including children.</p>
+  <h2>6. Law enforcement and legal requests</h2>
+  <p>Because all data is stored only on your device and we have no servers or databases, <strong>we have no user data to provide</strong> in response to any legal request, court order, subpoena, or government demand. This is not a policy choice — it is a technical reality.</p>
+  <p>We will never voluntarily share information about our users with law enforcement or any government authority.</p>
 
-  <h2>Data deletion</h2>
-  <p>To delete all your data, uninstall the app.</p>
+  <h2>7. Data security</h2>
+  <p>Your data is protected by your device's operating system security, including file-level encryption on modern Android and iOS devices. We recommend keeping your device software up to date and using a screen lock to protect your data at rest.</p>
+  <p>If your device is lost, stolen, or accessed by someone else, your Bump Buddy data is as secure as your device itself.</p>
 
-  <h2>Changes to this policy</h2>
-  <p>If we add features that change how data is handled, we will update this policy and the "last updated" date above.</p>
+  <h2>8. Data retention</h2>
+  <p>Your data persists on your device until you uninstall the app. Uninstalling removes all locally stored Bump Buddy data permanently. We retain no copies of your data anywhere.</p>
 
-  <h2>Contact</h2>
-  <p>Questions? Email us at <a href="mailto:hello.bumpbuddy@gmail.com">hello.bumpbuddy@gmail.com</a></p>
+  <h2>9. Your rights — GDPR (European users)</h2>
+  <p>If you are located in the European Economic Area, you have rights under the General Data Protection Regulation (GDPR), including the right to access, correct, and delete your personal data. Since all data is stored locally on your device, you exercise these rights directly:</p>
+  <ul>
+    <li><strong>Access &amp; portability:</strong> your data is on your device, accessible to you at all times.</li>
+    <li><strong>Correction:</strong> edit your data directly within the app.</li>
+    <li><strong>Deletion:</strong> uninstall the app to delete all data permanently.</li>
+  </ul>
+  <p>Because we collect no data, there is no data controller to contact for these requests — you are in full control.</p>
+
+  <h2>10. Your rights — CCPA (California users)</h2>
+  <p>If you are a California resident, the California Consumer Privacy Act (CCPA) grants you rights regarding your personal information. We do not sell personal information because we do not collect any. There is nothing to opt out of.</p>
+
+  <h2>11. Age requirement</h2>
+  <p>Bump Buddy is intended for users aged 18 and older. We do not knowingly collect data from anyone, and the app is not directed at children under 18. If you believe a minor is using this app, please contact us at the address below.</p>
+
+  <h2>12. Medical information disclaimer</h2>
+  <p>The medical reference content in this app is for general educational purposes only. It was not written or reviewed by licensed medical professionals and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult your healthcare provider with questions about your pregnancy or health.</p>
+
+  <h2>13. Changes to this policy</h2>
+  <p>If we introduce features that change how data is handled, we will update this policy and revise the "last updated" date at the top. We will never introduce data collection practices that contradict the core principle of this policy: your data stays on your device.</p>
+
+  <h2>14. Governing law</h2>
+  <p>This policy is governed by the laws of the jurisdiction in which Cowli Corp operates, without regard to conflict of law principles.</p>
+
+  <h2>15. Contact</h2>
+  <p>Questions, concerns, or feedback about this policy? Email us at <a href="mailto:hello.bumpbuddy@gmail.com">hello.bumpbuddy@gmail.com</a></p>
 </body>
 </html>
